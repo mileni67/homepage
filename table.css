@@ -1,0 +1,22 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tableCell {
+    border: 1px solid #24753656;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .tableHeader {
+    background-color: #8ee08e;
+    color: white;
+  }
+  
+  .caption {
+    padding: 20px 20px;
+    font-size: 30px;
+  }

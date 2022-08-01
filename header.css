@@ -1,0 +1,13 @@
+.header {
+    background-color: #8ee08e;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 15px;
+    width: 100%;
+  }
+
+  .subHeader {
+    background-color: #8ee08e;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+  }

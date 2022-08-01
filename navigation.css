@@ -1,0 +1,27 @@
+.navigation {
+    border: 1px solid #a7b3a7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #8ee08e;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .navigation__list {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  .navigation__link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navigation__link:focus {
+    outline: 2px solid currentColor;
+  }
+  
+  .navigation__link:hover {
+    color: #235723;
+    border-bottom: 1px solid;
+    outline: none;
+  }

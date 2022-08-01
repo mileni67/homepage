@@ -1,3 +1,4 @@
+console.log("Ten kod jest juz repozytorium git")
 let amountElement = document.querySelector("js-amount");
 let currencyElement = document.querySelector("js-currency");
 let submitElement = document.querySelector("js-submit");

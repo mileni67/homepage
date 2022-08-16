@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/table.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans&family=Redressed&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <div class="container">
+        <h1 class="header">My first page</h1>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="#About-me">About me</a></li>
+                <li><a class="navigation__link" href="#Studies-and-education">Studies and education</a></li>
+                <li><a class="navigation__link" href="#My-Favorite-Movies">My Favorite Movies</a></li>
+            </ul>
+        </nav>
+        <section class="photoAndbutton">
+            <img class="photo" src='https://i.postimg.cc/t4Vc6Pkw/imgonline-com-ua-Resize-e8-Lgbt-Qbzyix5-T.jpg'
+                alt='Alex Photo' />
+            <p> <button class="button">Usuń zdjęcie</button> </p>
+        </section>
+        <h2 class="subHeader" id="About-me">About me</h2>
+        <section class="text__description">
+            <p>My name is Alex. I am 25 years old. I want to be a <strong>frontend</strong> developer. I'm a senior
+                majoring
+                in data science.
+                In addition, I am interested in cooking, sports, e-sports and serials.</p>
+
+        </section>
+        <h3 class="subHeader" id="Studies-and-education">Studies and education</h3>
+        <section class="text__description">
+            <p>I am a graduate of the WSB academy, where I studied computer science with a specialization in computer
+                graphics.</p>
+            <p>After studying I attended various courses and trainings:</p>
+            <ul>
+                <li>Scrum</li>
+                <li>Phython</li>
+                <li>Java</li>
+            </ul>
+        </section>
+        <h3 class="subHeader">Personal qualities</h3>
+        <section class="text__description">
+            <p>Purposefulness, ambition, sociability, stress tolerance <em>Interested in development</em> in the field
+                of
+                IT.
+                High
+                self-motivation. A confident PC user.</p>
+            <h3 class="subHeader">Hobby</h3>
+            <p>Sports (swimming, cycling, gym, running).<br>Active recreation (fishing, hiking, hunting).<br>Reading
+                books
+                (philosophy, professional and classical literature, adventure, fantasy).
+            </p>
+        </section>
+        <section class="tableConteiner">
+            <table class="table">
+                <caption class="caption" id="My-Favorite-Movies">My Favorite Movies</caption>
+                <tr>
+                    <th class="tableCell tableHeader" scope="col">Movie name</th>
+                    <th class="tableCell tableHeader" scope="col">Autor</th>
+                    <th class="tableCell tableHeader" scope="col">Date</th>
+                    <th class="tableCell tableHeader" scope="col">Director</th>
+                </tr>
+                <tr>
+                    <th class="tableCell tableHeader" scope="row">The Lord of the Rings</th>
+                    <td class="tableCell">J.R.R.Tolkien</td>
+                    <td class="tableCell">2001</td>
+                    <td class="tableCell">Peter Jackson</td>
+                </tr>
+                <tr>
+                    <th class="tableCell tableHeader" scope="row">Avengers: Endgame</th>
+                    <td class="tableCell">Stan Lee</td>
+                    <td class="tableCell">2019 </td>
+                    <td class="tableCell">Russo brothers</td>
+                </tr>
+                <tr>
+                    <th class="tableCell tableHeader" scope="row">Harry Potter and magic stone</th>
+                    <td class="tableCell" rowspan="2">Joanne Rowling</td>
+                    <td class="tableCell">2001</td>
+                    <td class="tableCell">Chris Columbus</td>
+                </tr>
+                <tr>
+                    <th class="tableCell tableHeader" scope="row">Harry Potter and the goblet of fire</th>
+                    <td class="tableCell">2005</td>
+                    <td class="tableCell">Mike Newell</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <script src="/js/scriptcolor.js"></script>
+</body>
+
+</html>

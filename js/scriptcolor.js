@@ -1,5 +1,5 @@
 console.log("Hello");
-
+{
 let button = document.querySelector(".button");
 let photo = document.querySelector(".photo");
 
@@ -12,3 +12,4 @@ button.addEventListener("click", () => {
     button.innerText = "Pokaż zdjęcie!";
   }
 });
+}
